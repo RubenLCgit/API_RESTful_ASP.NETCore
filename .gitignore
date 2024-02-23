@@ -1,0 +1,86 @@
+# Archivos de Byte de Depuración y Sym
+bin/
+obj/
+out/
+
+# Archivos de configuración y secretos locales
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+
+# Carpetas y archivos relacionados con Visual Studio
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.ds_store
+*.idea/
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.mdf
+*.ldf
+*.dbmdl
+*.jfm
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+or.vscode/settings.json
+
+# Carpetas y archivos de paquetes NuGet
+**/[Pp]ackages/*
+**/[Pp]ackage [Cc]ache/*
+*.nupkg
+*.snupkg
+.nuget/
+
+# Herramientas de Rendimiento
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Archivos de Proyecto de Rider
+.idea/
+
+# Archivos de Respaldo de Windows
+Thumbs.db
+ehthumbs.db
+
+# Archivo de Base de Datos SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de Registro
+*.log
+*.lgbl
+*.log.*
+
+# Archivos Temporales
+*.tmp
+*.temp
+*.tbd
+
+# Otros archivos y carpetas
+.DS_Store
+*.swp
+*~
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+**/node_modules
+**/wwwroot/lib
+
+# Archivos generados por JetBrains Rider
+.idea/
+
+# Archivos de cobertura y resultados de pruebas
+coverage/
+test-results/

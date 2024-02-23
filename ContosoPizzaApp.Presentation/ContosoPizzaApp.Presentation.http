@@ -1,0 +1,32 @@
+@NombreCualquiera = http://localhost:5186
+
+GET {{NombreCualquiera}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{NombreCualquiera}}/pizza/
+Accept: application/json
+
+###
+POST {{NombreCualquiera}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+###
+PUT {{NombreCualquiera}}/pizza/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Carbonara",
+    "isGlutenFree": false
+}
+
+###
+DELETE {{NombreCualquiera}}/pizza/3
+
+###
